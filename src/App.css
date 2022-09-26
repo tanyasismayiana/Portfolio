@@ -282,37 +282,7 @@ mark{
   background-color: #ffffff80;
   font-weight: bolder;
 }
-/* .port_out{
-  position: absolute;
-  width: 38%;
-  height: 30%;
-}
-.port_out:hover{
-  background-color: #ffffff80;
-}
-.port1{
-  top: 18%;
-  left: 10%;
-}
-.port2{
-  top: 18%;
-  left: 53%;
-}
-.port3{
-  top: 58%;
-  left: 10%;
-}
-.port4{
-  top: 58%;
-  left: 53%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.port4 img {
-  width: 50%;
-  height: 80%;
-} */
+
 .portfolio_container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -322,10 +292,12 @@ mark{
   position: absolute;
   top: 8%;
   left: 8%;
+  height: 88%;
+  width: 88%;
   }
 .portfolio {
-  width: 300px;
-  height: 350px;
+  max-width: 400px;
+  max-height: 350px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -337,7 +309,8 @@ mark{
   background-color: #ffffff80;
 }
 .portfolio img {
-  width: 200px;
+  max-width: 220px;
+  max-height: 220px;
   margin: auto auto;
 }
 .po1{
