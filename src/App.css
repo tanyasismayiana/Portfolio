@@ -282,7 +282,7 @@ mark{
   background-color: #ffffff80;
   font-weight: bolder;
 }
-.port_out{
+/* .port_out{
   position: absolute;
   width: 38%;
   height: 30%;
@@ -305,13 +305,46 @@ mark{
 .port4{
   top: 58%;
   left: 53%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+.port4 img {
+  width: 50%;
+  height: 80%;
+} */
+.portfolio_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 45px;
+  grid-row-gap: 50px;
+  position: absolute;
+  top: 8%;
+  left: 8%;
+  }
+.portfolio {
+  width: 300px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20% 0% 20% 0%;
+  overflow: hidden;
+  position: relative;
+}
+.portfolio:hover{
+  background-color: #ffffff80;
+}
+.portfolio img {
+  width: 200px;
+  margin: auto auto;
+}
 .po1{
   width: 96%;
   height: 93%;
   margin: 2% 2%;
-  border-radius: 10px;
+  
 }
 .line3{
   position: absolute;
